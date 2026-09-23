@@ -445,6 +445,28 @@ footer.site-footer .container {
 
 footer.site-footer strong { color: var(--ink); }
 
+footer.site-footer .footer-quote {
+  flex-basis: 100%;
+  margin: 0 0 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  font-style: italic;
+}
+
+footer.site-footer .footer-quote .devanagari {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+footer.site-footer .footer-quote cite {
+  font-style: normal;
+  opacity: 0.8;
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 760px) {
